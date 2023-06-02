@@ -27,7 +27,7 @@
         }
 
         .destaque {
-            background-color: gray;
+            background-color: rgba(128, 128, 128, 0.750);
             color: white;
             text-align: center;
         }
@@ -40,15 +40,15 @@
 <body>
     <table>
         <thead>
-            <tr>
-                <th rowspan="2" class="destaque">Área</th>
-                <th rowspan="2" class="destaque">Disciplinas</th>
-                <th colspan="2" class="destaque">Notas</th>
-                <th rowspan="2" scope="colgroup" class="destaque">Média</th>
+            <tr class="destaque">
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2" scope="colgroup">Média</th>
             </tr>
-            <tr>
-                <th scope="colgroup" class="destaque">Nota 1</th>
-                <th scope="colgroup" class="destaque">Nota 2</th>
+            <tr class="destaque">
+                <th scope="colgroup">Nota 1</th>
+                <th scope="colgroup">Nota 2</th>
             </tr>
         </thead>
         <tbody>
@@ -77,9 +77,9 @@
                 <td class="number">0.0</td>
                 <td class="number">0.0</td>
             </tr>
-            <tr>
-                <th colspan="4" scope="row" class="destaque">Média de Exatas</th>
-                <td class="destaque">0.0</td>
+            <tr class="destaque">
+                <th colspan="4" scope="row">Média de Exatas</th>
+                <td class="number">0.0</td>
             </tr>
             <tr>
                 <th rowspan="2" scope="rowgroup">Humanas</th>
@@ -94,9 +94,9 @@
                 <td class="number">0.0</td>
                 <td class="number">0.0</td>
             </tr>
-            <tr>
-                <th colspan="4" scope="row" class="destaque">Média de Humanas</th>
-                <td class="destaque">0.0</td>
+            <tr class="destaque">
+                <th colspan="4" scope="row">Média de Humanas</th>
+                <td class="number">0.0</td>
             </tr>
         </tbody>
     </table>
